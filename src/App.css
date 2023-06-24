@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app {
+  padding: 35px;
+  background-color: #c3caea;
+  height: 100vh;
+}
+.app-logo {
+  width: 180px;
+  margin-bottom: 25px;
+}
+.app-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #5763a5;
+  padding: 35px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.form {
+  width: 48%;
+  background-color: #454f84;
+  padding: 25px;
+  border-radius: 15px;
+  margin-right: 25px;
+}
+.app-title {
+  color: #f8fafc;
+  margin-bottom: 25px;
+  margin-right: 10px;
+}
+.input-container {
+  display: flex;
+  align-items: flex-start;
+  border-radius: 5px;
+  border-width: 0px;
+  background-color: #f8fafc;
+  margin-bottom: 20px;
+}
+.input-logo {
+  width: 37px;
+  border-right: 1px solid #c3caea;
+}
+.input {
+  height: 37px;
+  width: 80%;
+  border-width: 0;
+  outline: none;
+  padding: 5px;
+  font-size: 16px;
+}
+.button-container {
+  text-align: right;
+}
+.add-button {
+  padding: 5px;
+  width: 80px;
+  border-width: 0;
+  border-radius: 5px;
+  height: 30px;
+  background-color: #0b69ff;
+}
+.image-container {
+  width: 40%;
+}
+.app-image {
+  width: 60%;
+}
+.app-bottom {
+  background-color: #5763a5;
+  padding: 35px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #b6c3ca;
+}
+.show-password {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.checkbox-container {
+  margin-right: 5px;
+}
+.checkbox {
+  height: 20px;
+  width: 20px;
+}
+.app-desc {
+  color: #f8fafc;
+}
+.passwords-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.password-list-item {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 25%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: white;
+  border: 1px solid #b6c3ca;
+  border-radius: 25px;
+}
+.password-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.initial-container {
+  text-align: center;
+  background-color: #10b981;
+  padding: 5px;
+  width: 50px;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+.initial {
+  margin: 0;
+}
+.password {
+  margin: 0;
+}
+.delete-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.delete-icon {
+  width: 25px;
+}
+.stars {
+  width: 150px;
+}
+.no-passwords {
+  width: 100%;
+  text-align: center;
+}
+.no-passwords-image {
+  width: 250px;
+}
